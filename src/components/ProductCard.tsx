@@ -1,9 +1,8 @@
-
 import { Link } from "react-router-dom";
 import { ShoppingCart, IndianRupee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Product } from "@/data/products";
+import { Product } from "@/types/product";
 import { useCart } from "@/context/CartContext";
 
 interface ProductCardProps {

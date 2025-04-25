@@ -1,7 +1,7 @@
-
 import { Link } from "react-router-dom";
 import { Laptop, Smartphone, HeadphonesIcon, Package, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Product } from "@/types/product";
 
 const CategorySection = () => {
   const categories = [
