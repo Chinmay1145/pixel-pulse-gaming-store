@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Laptop, Smartphone, HeadphonesIcon, Package, Earbuds } from "lucide-react";
+import { Laptop, Smartphone, HeadphonesIcon, Package, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CategorySection = () => {
@@ -25,7 +25,7 @@ const CategorySection = () => {
     },
     {
       name: "Gaming Earbuds",
-      icon: <Earbuds className="h-8 w-8" />,
+      icon: <Headphones className="h-8 w-8" />,
       path: "/category/audio",
       description: "Ultra-low latency gaming earbuds for mobile gaming."
     },
